@@ -191,42 +191,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "web_crawle.rb",
-			"settings":
-			{
-				"buffer_size": 2897,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "summary.rb",
-			"settings":
-			{
-				"buffer_size": 670,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "require_relative"
-			}
-		},
-		{
-			"file": "html_helper.rb",
-			"settings":
-			{
-				"buffer_size": 2711,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "mail_tool.rb",
-			"settings":
-			{
-				"buffer_size": 2701,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -349,10 +313,13 @@
 	],
 	"file_history":
 	[
-		"/C/Users/b20222/Documents/GitHub/school_get/.travis.yml",
-		"/C/Users/b20222/Documents/GitHub/school_get/schools.json",
-		"/C/Users/b20222/Documents/GitHub/school_get/Gemfile",
+		"/C/Users/b20222/Documents/GitHub/school_get/web_crawle.rb",
+		"/C/Users/b20222/Documents/GitHub/school_get/summary.rb",
 		"/C/Users/b20222/Documents/GitHub/school_get/html_helper.rb",
+		"/C/Users/b20222/Documents/GitHub/school_get/mail_tool.rb",
+		"/C/Users/b20222/Documents/GitHub/school_get/schools.json",
+		"/C/Users/b20222/Documents/GitHub/school_get/.travis.yml",
+		"/C/Users/b20222/Documents/GitHub/school_get/Gemfile",
 		"/D/projects/P_zephyr/zephyr/.travis.yml",
 		"/D/mcu_PSDK_test/script_tools/dapeng_auto/web_request.rb",
 		"/C/Users/b20222/Documents/2nd.txt",
@@ -473,10 +440,7 @@
 		"/D/projects/D_zebu/zebu_test_rom/flexspi/flexspi.rb",
 		"/D/projects/D_zebu/zebu_test_rom/flexspi/check_config_head.rb",
 		"/D/projects/D_zebu/zebu_test_rom/qspi/qspi_config.rb",
-		"/{tag=>1111900998, ",
-		"/D/projects/D_zebu/zebu_test_rom/zebu_patch/VMMC_functions.cc",
-		"/D/projects/D_zebu/imx-rom-tools/image_tools/flexspi_config_util/flexspi_config_util.c",
-		"/D/projects/D_zebu/imx-rom-tools/image_tools/flexspi_config_util/flexspi_mem_util.h"
+		"/{tag=>1111900998, "
 	],
 	"find":
 	{
@@ -515,133 +479,8 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "web_crawle.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2897,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								209,
-								209
-							]
-						],
-						"settings":
-						{
-							"is_init_dirty_state": false,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "summary.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 670,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								600,
-								600
-							]
-						],
-						"settings":
-						{
-							"auto_name": "require_relative",
-							"is_init_dirty_state": false,
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 184.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "html_helper.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2711,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								552,
-								552
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 84.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "mail_tool.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2701,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2323,
-								2323
-							]
-						],
-						"settings":
-						{
-							"is_init_dirty_state": false,
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1386.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
