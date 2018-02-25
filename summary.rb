@@ -23,4 +23,4 @@ def summary_schools()
 	return summary
 end
 
-#puts summary_schools()
+puts summary_schools()
