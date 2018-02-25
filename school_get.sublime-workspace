@@ -313,12 +313,12 @@
 	],
 	"file_history":
 	[
-		"/C/Users/b20222/Documents/GitHub/school_get/web_crawle.rb",
 		"/C/Users/b20222/Documents/GitHub/school_get/summary.rb",
+		"/C/Users/b20222/Documents/GitHub/school_get/.travis.yml",
+		"/C/Users/b20222/Documents/GitHub/school_get/web_crawle.rb",
 		"/C/Users/b20222/Documents/GitHub/school_get/html_helper.rb",
 		"/C/Users/b20222/Documents/GitHub/school_get/mail_tool.rb",
 		"/C/Users/b20222/Documents/GitHub/school_get/schools.json",
-		"/C/Users/b20222/Documents/GitHub/school_get/.travis.yml",
 		"/C/Users/b20222/Documents/GitHub/school_get/Gemfile",
 		"/D/projects/P_zephyr/zephyr/.travis.yml",
 		"/D/mcu_PSDK_test/script_tools/dapeng_auto/web_request.rb",
