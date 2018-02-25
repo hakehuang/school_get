@@ -9,7 +9,7 @@ require_relative 'html_helper'
 
 DAPENG_SITE_IP = "10.192.225.198"
 
-$KEYS = ['招生', '2018', '开放日', '艺术']
+$KEYS = ['招生', '开放日', '录取', '面谈', '面试', '笔试']
 
 =begin
 $SCHOOLS = {
@@ -90,6 +90,11 @@ end
 
 #call_school
 
-#file = File.read('schools.json')
+#file = File.read("schools.json", :external_encoding => "UTF-8")
 #schools = JSON.parse(file)
+#puts schools
+#schools.each do |k,v|
+#	puts k.encoding
+#	puts k
+#end
 #puts call_school_agent(schools)

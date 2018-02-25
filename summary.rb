@@ -3,7 +3,7 @@ require_relative 'html_helper'
 
 def summary_schools()
 	@sc_tb = ["school_name", "text"].to_html_table({'attributes' => {'colspan' => 2 }})
-	file = File.read('schools.json')
+	file = File.read('schools.json', :external_encoding => "UTF-8")
 	schools = JSON.parse(file)
 	school_lists = call_school_agent(schools)
 	hsh = {'attributes' => {'colspan' => 2 }}
@@ -17,6 +17,8 @@ def summary_schools()
 			end
 		end
 	end
+	summary += "招生报名网".link_to("http://www.shrxbm.cn/").to_html
+	summary += "\r\n"
 	summary += @sc_tb.to_html
 	return summary
 end
