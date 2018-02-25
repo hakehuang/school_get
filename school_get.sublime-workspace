@@ -195,7 +195,35 @@
 			"file": "web_crawle.rb",
 			"settings":
 			{
-				"buffer_size": 2113,
+				"buffer_size": 2787,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "summary.rb",
+			"settings":
+			{
+				"buffer_size": 558,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "require_relative"
+			}
+		},
+		{
+			"file": "mail_tool.rb",
+			"settings":
+			{
+				"buffer_size": 2701,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": ".travis.yml",
+			"settings":
+			{
+				"buffer_size": 455,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -322,6 +350,11 @@
 	],
 	"file_history":
 	[
+		"/C/Users/b20222/Documents/GitHub/school_get/schools.json",
+		"/C/Users/b20222/Documents/GitHub/school_get/Gemfile",
+		"/C/Users/b20222/Documents/GitHub/school_get/html_helper.rb",
+		"/D/projects/P_zephyr/zephyr/.travis.yml",
+		"/D/mcu_PSDK_test/script_tools/dapeng_auto/web_request.rb",
 		"/C/Users/b20222/Documents/2nd.txt",
 		"/D/projects/D_zebu/zebu_test_rom/zebu_run_config.py",
 		"/D/projects/D_zebu/zebu_test_rom/detect_idle_card.py",
@@ -444,16 +477,11 @@
 		"/D/projects/D_zebu/zebu_test_rom/zebu_patch/VMMC_functions.cc",
 		"/D/projects/D_zebu/imx-rom-tools/image_tools/flexspi_config_util/flexspi_config_util.c",
 		"/D/projects/D_zebu/imx-rom-tools/image_tools/flexspi_config_util/flexspi_mem_util.h",
-		"/D/Temp/ROM_EMMC_USER/BootU_8-bit-DDR_Fast-boot_NOACK.txt",
-		"/D/Temp/ROM_EMMC_USER/BootU_8-bit-DDR.txt",
-		"/D/projects/D_zebu/imx-rom-tools/tool_chain/ARMCompiler6.01/sw/python2.7/Lib/multiprocessing/process.py",
-		"/D/Temp/ROM_EMMC_USER/BootU_8-bit_Fast-boot_NOACK.txt",
-		"/D/Temp/BootU_8-bit-DDR.txt",
-		"/D/Temp/map.txt"
+		"/D/Temp/ROM_EMMC_USER/BootU_8-bit-DDR_Fast-boot_NOACK.txt"
 	],
 	"find":
 	{
-		"height": 52.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
@@ -467,6 +495,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"'",
+			"=>"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -474,6 +504,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"\"",
+			":"
 		],
 		"reverse": false,
 		"show_context": false,
@@ -484,7 +516,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -493,15 +525,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2113,
+						"buffer_size": 2787,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1877,
-								1877
+								2614,
+								2614
 							]
 						],
 						"settings":
@@ -512,7 +544,96 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 528.0,
+						"translation.y": 1650.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "summary.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 558,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								536,
+								536
+							]
+						],
+						"settings":
+						{
+							"auto_name": "require_relative",
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 66.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "mail_tool.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2701,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2556,
+								2556
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1386.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": ".travis.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 455,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								121,
+								121
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/YAML/YAML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -558,7 +679,7 @@
 	},
 	"output.exec":
 	{
-		"height": 337.0
+		"height": 389.0
 	},
 	"output.find_results":
 	{

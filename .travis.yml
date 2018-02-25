@@ -1,0 +1,21 @@
+language: ruby
+rvm:
+  - 2.3.0
+
+install:
+  - gem install deep_merge
+  - gem install awesome_print
+  - gem install nokogiri
+  - gem install mechanize
+  - gem install mail
+  - gem install json
+
+before_install:
+  - gem update --system
+
+script:
+    ############################################################################
+    # Build main and tests
+    ############################################################################
+     - ruby mail_tool.rb
+
