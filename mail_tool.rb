@@ -57,6 +57,7 @@ end
 
 
 attachment = $LOG_FILE 
+=begin
 options = { :address              => "smtp.gmail.com",
             :port                 => 587,
             :domain               => 'localhost',
@@ -64,6 +65,15 @@ options = { :address              => "smtp.gmail.com",
             :password             => 'Hap$1234',
             :authentication       => 'plain',
             :enable_starttls_auto => true  }
+=end
+options = { :address              => "remotesmtp.freescale.net",
+            :port                 => 25,
+            :domain               => 'localhost',
+#           :user_name            => 'dpc@nxp.com',
+#            :password             =>  'gubnnvmsjcyvtrqq', #'Hap$1234',
+#            :authentication       => 'plain',
+#            :enable_starttls_auto => true  
+}
 
 
 Mail.defaults do

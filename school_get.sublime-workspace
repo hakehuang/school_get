@@ -191,6 +191,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "mail_tool.rb",
+			"settings":
+			{
+				"buffer_size": 3087,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -309,12 +317,15 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/b20222/Documents/GitHub/school_get"
+		"/C/github/school_get"
 	],
 	"file_history":
 	[
-		"/C/Users/b20222/Documents/GitHub/school_get/summary.rb",
+		"/C/github/school_get/mail_tool.rb",
+		"/C/Ruby24-x64/lib/ruby/site_ruby/2.4.0/rubygems/core_ext/kernel_require.rb",
+		"/C/github/school_get/Gemfile",
 		"/C/Users/b20222/Documents/GitHub/school_get/.travis.yml",
+		"/C/Users/b20222/Documents/GitHub/school_get/summary.rb",
 		"/C/Users/b20222/Documents/GitHub/school_get/web_crawle.rb",
 		"/C/Users/b20222/Documents/GitHub/school_get/html_helper.rb",
 		"/C/Users/b20222/Documents/GitHub/school_get/mail_tool.rb",
@@ -437,14 +448,11 @@
 		"/D/projects/D_zebu/zebu_test_rom/fuse/MainFuseFile_MMC_4BIT_FAST.zebu.hexD",
 		"/D/projects/D_zebu/zebu_test_rom/fuse/output/SupplementFuseFile_MMC_8BITDDR_no_FAST_SEC.zebu.hex",
 		"/D/projects/D_zebu/zebu_test_rom/fuse/output/MainFuseFile_MMC_8BITDDR_no_FAST_SEC.zebu.hex",
-		"/D/projects/D_zebu/zebu_test_rom/flexspi/flexspi.rb",
-		"/D/projects/D_zebu/zebu_test_rom/flexspi/check_config_head.rb",
-		"/D/projects/D_zebu/zebu_test_rom/qspi/qspi_config.rb",
-		"/{tag=>1111900998, "
+		"/D/projects/D_zebu/zebu_test_rom/flexspi/flexspi.rb"
 	],
 	"find":
 	{
-		"height": 32.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -479,14 +487,45 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "mail_tool.rb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3087,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 32.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -531,7 +570,7 @@
 	"project": "school_get.sublime-project",
 	"replace":
 	{
-		"height": 59.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
