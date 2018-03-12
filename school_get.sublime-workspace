@@ -191,16 +191,8 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "mail_tool.rb",
-			"settings":
-			{
-				"buffer_size": 3087,
-				"line_ending": "Windows"
-			}
-		}
 	],
-	"build_system": "",
+	"build_system": "Packages/Ruby/Ruby.sublime-build",
 	"build_system_choices":
 	[
 		[
@@ -232,6 +224,22 @@
 			],
 			[
 				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Ruby/Ruby.sublime-build",
+					""
+				],
+				[
+					"Packages/User/cmake.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Ruby/Ruby.sublime-build",
 				""
 			]
 		]
@@ -317,10 +325,12 @@
 	},
 	"expanded_folders":
 	[
-		"/C/github/school_get"
+		"/C/projects/github/school_get"
 	],
 	"file_history":
 	[
+		"/C/projects/github/school_get/mail_tool.rb",
+		"/C/Ruby23-x64/lib/ruby/site_ruby/2.3.0/rubygems/core_ext/kernel_require.rb",
 		"/C/github/school_get/mail_tool.rb",
 		"/C/Ruby24-x64/lib/ruby/site_ruby/2.4.0/rubygems/core_ext/kernel_require.rb",
 		"/C/github/school_get/Gemfile",
@@ -446,13 +456,11 @@
 		"/D/dpc_lite/test_dpc-1.0/dpc-1.0/lib/dpc-1.0.jar",
 		"/D/projects/D_zebu/zebu_test_rom/fuse/ecc.rb",
 		"/D/projects/D_zebu/zebu_test_rom/fuse/MainFuseFile_MMC_4BIT_FAST.zebu.hexD",
-		"/D/projects/D_zebu/zebu_test_rom/fuse/output/SupplementFuseFile_MMC_8BITDDR_no_FAST_SEC.zebu.hex",
-		"/D/projects/D_zebu/zebu_test_rom/fuse/output/MainFuseFile_MMC_8BITDDR_no_FAST_SEC.zebu.hex",
-		"/D/projects/D_zebu/zebu_test_rom/flexspi/flexspi.rb"
+		"/D/projects/D_zebu/zebu_test_rom/fuse/output/SupplementFuseFile_MMC_8BITDDR_no_FAST_SEC.zebu.hex"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -487,45 +495,14 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "mail_tool.rb",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 3087,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 270.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 40.0
 	},
 	"input":
 	{
@@ -560,7 +537,7 @@
 	},
 	"output.exec":
 	{
-		"height": 389.0
+		"height": 278.0
 	},
 	"output.find_results":
 	{
@@ -570,7 +547,7 @@
 	"project": "school_get.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 76.0
 	},
 	"save_all_on_build": true,
 	"select_file":
