@@ -20,8 +20,8 @@ def summary_schools()
 =begin	
 	summary += "招生报名网".link_to("http://www.shrxbm.cn/").to_html
 	summary += "\r\n"
-	summary += @sc_tb.to_html
 =end
+	summary += @sc_tb.to_html
 	return summary
 end
 
