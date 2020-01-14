@@ -60,9 +60,10 @@ attachment = $LOG_FILE
 #=begin
 options = { :address              => "smtp.gmail.com",
             :port                 => 587,
-            :domain               => 'localhost',
+           # :domain               => 'localhost',
             :user_name            => 'nxpkextester@gmail.com',
-            :password             => 'Hap$1234',
+            :password             => 'rjpwmrqohsdycdyj',
+           # :password             => 'Hap$1234',
             :authentication       => 'plain',
             :enable_starttls_auto => true  }
 #=end
