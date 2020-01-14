@@ -57,7 +57,7 @@ end
 
 
 attachment = $LOG_FILE 
-=begin
+#=begin
 options = { :address              => "smtp.gmail.com",
             :port                 => 587,
             :domain               => 'localhost',
@@ -65,7 +65,8 @@ options = { :address              => "smtp.gmail.com",
             :password             => 'Hap$1234',
             :authentication       => 'plain',
             :enable_starttls_auto => true  }
-=end
+#=end
+=begin
 options = { :address              => "remotesmtp.freescale.net",
             :port                 => 25,
             :domain               => 'localhost',
@@ -74,6 +75,7 @@ options = { :address              => "remotesmtp.freescale.net",
 #            :authentication       => 'plain',
 #            :enable_starttls_auto => true  
 }
+=end
 
 
 Mail.defaults do
@@ -93,7 +95,7 @@ mail_ct = summary_schools()
 Mail.deliver do
        to 'hake.huang@nxp.com'
      from 'nxpkextester@gmail.com'
-  subject "Pudong related middle school daily scan"
+  subject "Shanghai high school daily scan"
      body ''
      #add_file attachment
 
