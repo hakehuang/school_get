@@ -94,8 +94,9 @@ mail_ct = summary_schools()
 #=begin
   
 Mail.deliver do
-       to 'hake.huang@nxp.com','ada.lu@nxp.com'
-     from 'nxpkextester@gmail.com'
+    to 'ada.lu@nxp.com'
+    cc 'hake.huang@nxp.com'
+    from 'nxpkextester@gmail.com'
   subject "Shanghai high school daily scan"
      body ''
      #add_file attachment
