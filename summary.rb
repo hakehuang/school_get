@@ -21,6 +21,8 @@ def summary_schools()
 	summary += "招生报名网".link_to("http://www.shrxbm.cn/").to_html
 	summary += "\r\n"
 =end
+	summary += "上海招考热线".link_to("http://www.shmeea.edu.cn/").to_html
+	summary += "\r\n"
 	summary += @sc_tb.to_html
 	return summary
 end
