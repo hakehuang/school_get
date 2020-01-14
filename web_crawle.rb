@@ -7,7 +7,7 @@ require 'json'
 
 require_relative 'html_helper'
 
-year = "2020"
+year = "2019"
 
 $KEYS = ['欢迎#{year}年应届优秀初中毕业生登陆上中招生系统',
 	 '#{year}年我校','#{year}年上海市高中学校',
