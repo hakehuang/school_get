@@ -7,7 +7,7 @@ require "json"
 
 require_relative "html_helper"
 
-year = "2019"
+year = "2020"
 
 $KEYS = ["欢迎#{year}年应届优秀初中毕业生登陆上中招生系统",
 	 "#{year}年我校",
@@ -134,3 +134,10 @@ end
 #	puts k
 #end
 #puts call_school_agent(schools)
+
+#agent = Mechanize.new
+#page = agent.get("https://www.fdfz.cn/list/cid/131")
+#page.save_as "tt.html"
+#page.links.each do |ref|
+# puts ref
+#end
