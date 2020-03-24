@@ -136,7 +136,7 @@ end
 #puts call_school_agent(schools)
 
 #agent = Mechanize.new
-#page = agent.get("https://www.fdfz.cn/list/cid/131")
+#page = agent.get("https://www.fdfz.cn/list/cid/131/page/1")
 #page.save_as "tt.html"
 #page.links.each do |ref|
 # puts ref
